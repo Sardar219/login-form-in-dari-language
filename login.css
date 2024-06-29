@@ -1,0 +1,23 @@
+#text{
+    border-radius:15px 0 0 15px;
+}
+#form{
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-right:1px solid rgba(255,255,255,0.5);
+    border-bottom:1px solid rgba(255,255,255,0.5);
+    border-left: none;
+    border-radius:0 15px 15px 0;
+}
+@media (max-width:992px){
+    #text{
+        border-radius:0 0 15px 15px !important;
+    }
+    #form{
+        border-left:1px solid rgba(255,255,255,0.5);
+        border-top:1px solid rgba(255,255,255,0.5) !important;
+        border-bottom: none;
+        border-radius:15px 15px 0 0 !important;
+        /* height: 100% !important; */
+    }
+}
+/* ------------------ Autor: Sardar Hossaini ----------------------- */
