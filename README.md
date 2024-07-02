@@ -27,7 +27,7 @@
 ## اطلاعات تماس
 
 - [وب‌سایت](لینک)
-- [ایمیل](mailto:sardarhossaini2022@gmail.com)
+- [sardarhossaini2022@gmail.com](mailto:sardarhossaini2022@gmail.com)
 - www.linkedin.com/in/sardar-hussaini
 
 https://www.facebook.com/profile.php?id=100022777820383
