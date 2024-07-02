@@ -1,46 +1,82 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ورود</title>
-    <link rel="stylesheet" href="sign-in.css">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="font/css/all.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="sign-in.css" />
+    <link rel="stylesheet" href="login.css" />
+    <!-- fontAwasome offline -->
+    <link rel="stylesheet" href="fontawasome/css/all.css" />
+
+    <!-- fontAwasome online -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Bootstrap.min.css offline -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <!-- Bootstrap.min.css online -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap.bundle.min.js offline -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
-<div class="container">
-    <div class="row">
+
+    <!-- Bootstrap.bundle.min.js online -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
         <div class="col-lg-7 col-md-12" id="form">
-            <h1>ورود</h1>
-            <div>
-                <a href="#"><span class="fab fa-facebook-f"></span></a>
-                <a href="#"><span class="fab fa-linkedin-in"></span></a>
-                <a href="#"><span class="fab fa-twitter"></span></a>
+          <h1>ورود</h1>
+          <div>
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-linkedin-in"></span></a>
+            <a href="#"><span class="fab fa-twitter"></span></a>
+          </div>
+          <p>و یا استفاده کنید از حساب تان</p>
+          <form action="sardar" name="myform">
+            <div class="input-group">
+              <input
+                type="email"
+                placeholder="ایمیل"
+                required
+                class="form-control"
+              />
+              <span class="input-group-text fa fa-envelope"></span>
             </div>
-            <p>و یا استفاده کنید از حساب تان</p>
-            <form action="sardar" name="myform">
-                <div class="input-group">
-                    <input type="email" placeholder="ایمیل" required class="form-control">
-                    <span class="input-group-text fa fa-envelope"></span>
-                </div>
-                <div class="input-group">
-                    <input type="password" placeholder="رمز" required class="form-control">
-                    <span class="input-group-text"><span class="fa fa-lock"></span></span>
-                </div>
-                <a href="home-per.html">ورود</a>
-            </form>
+            <div class="input-group">
+              <input
+                type="password"
+                placeholder="رمز"
+                required
+                class="form-control"
+              />
+              <span class="input-group-text"
+                ><span class="fa fa-lock"></span
+              ></span>
+            </div>
+            <a href="home-per.html">ورود</a>
+          </form>
         </div>
         <div class="col-lg-5 col-md-12" id="text">
-            <h1>سلام, دوست !</h1><br>
-            <p>برای حفظ ارتباط با ما لطفآ<br>حساب جدید خود را با معلومات شخصی بسازید</p><br>
-            <a href="sign-in-per.html">داخل شدن</a>
+          <h1>سلام, دوست !</h1>
+          <br />
+          <p>
+            برای حفظ ارتباط با ما لطفآ<br />حساب جدید خود را با معلومات شخصی
+            بسازید
+          </p>
+          <br />
+          <a href="sign-in-per.html">داخل شدن</a>
         </div>
+      </div>
+      <!-- ---------------- Autor : سردار حسینی -------------------- -->
     </div>
-    <!-- ---------------- Autor : سردار حسینی -------------------- -->
-</div>
-</body>
+  </body>
 </html>
